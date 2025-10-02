@@ -1,19 +1,30 @@
 import 'package:flutter/material.dart';
 
-class LoginPage extends StatefulWidget
-{
-  @override
+class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
 
-  State<_LoginPageState> createState() => State<_LoginPageState>();
+  @override
+  State<LoginPage> createState() => _LoginPageState();
 }
 
-class _LoginPageState extends State
-{
+class _LoginPageState extends State<LoginPage> {
+  
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
+    return Scaffold
+    (
+      appBar: AppBar
+      (
+        title: Text
+        (
+          "Cashly",
+          
+          style: TextStyle
+          (
+            color: Colors.white,
+          ),
+        ),
+      ),
+    );
   }
-  
 }

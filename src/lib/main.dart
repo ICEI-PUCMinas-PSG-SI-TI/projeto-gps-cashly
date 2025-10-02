@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:src/landing_page.dart';
 
 void main()
 {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget
     return MaterialApp
     (
       title: "Cashly",
-      home: LoginPage(),
+      home: LandingPage(),
     );
   }
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'money_partition_row.dart';
 
 class LandingPage extends StatelessWidget {
   const LandingPage({super.key});
@@ -38,8 +39,7 @@ class LandingPage extends StatelessWidget {
 
           children: [
             
-            // Money Placeholder
-            
+            // Main Finance Row
             Row (
 
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -63,9 +63,32 @@ class LandingPage extends StatelessWidget {
               ],
             ),
 
-            Placeholder (
-              fallbackHeight: 550,
-            )
+            SizedBox(height: 20),
+
+            // Partitions of the Main Money
+            MoneyPartitionRow (
+              name: 'Alimentação',
+              percentage: 0.7,
+              totalValue: 2250,
+            ),
+
+            MoneyPartitionRow (
+              name: 'Transporte',
+              percentage: 0.5,
+              totalValue: 2000,
+            ),
+
+            MoneyPartitionRow (
+              name: 'Assinaturas',
+              percentage: 0.3,
+              totalValue: 1750,
+            ),
+
+            MoneyPartitionRow (
+              name: 'Lazer',
+              percentage: 0.9,
+              totalValue: 1750,
+            ),
           ],
         ),
       ),

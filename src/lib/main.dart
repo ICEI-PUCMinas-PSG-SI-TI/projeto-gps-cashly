@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Cashly',
       home: LandingPage(),
-      theme: ThemeData.dark (
+      theme: ThemeData.light (
         useMaterial3: true,
       )
     );

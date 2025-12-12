@@ -11,7 +11,7 @@ Práticas adotadas:
 ## Ambientes e Ferramentas
 - Código-fonte: pasta `src/` no repositório.
 - Ferramentas: Flutter/Dart, editor de código (VSCode), Git.
-- Banco de dados: ambiente de desenvolvimento local (SQLite ou storage simples); para homologação usar ambiente indicado pelo orientador.
+- Banco de dados: Banco de dados: utilização do Firebase, com Firestore como base principal de armazenamento.
 
 ## Entregáveis da Execução
 - Software funcional (build executável ou instruções para rodar localmente).

@@ -145,19 +145,19 @@ Os planos de gerenciamento são documentos essenciais que delineiam as estratég
 
 ## Plano de Qualidade
 
-...... DESCREVA SUCINTAMENTE O PLANO DE QUALIDADE UTILIZADO NO PROJETO ......
-
-O Plano de Qualidade auxilia a garantir que as entregas do projeto atendam aos padrões de qualidade definidos. Este plano abrange atividades como definição de padrões, procedimentos de garantia de qualidade, critérios de aceitação e processos de monitoramento e controle da qualidade ao longo do ciclo de vida do projeto. Ao identificar metas de qualidade, responsabilidades da equipe, e métricas de avaliação, o Plano de Qualidade busca assegurar que o projeto atinja ou exceda as expectativas dos stakeholders em termos de desempenho e conformidade. A adoção de políticas de qualidade auxilia a mitigar riscos, promove a confiança nas entregas do projeto e, por fim, aumenta a probabilidade de sucesso do empreendimento.
+O Plano de Qualidade do projeto Cashly foca na garantia de um MVP robusto e funcional. As estratégias de qualidade incluem:
+- **Testes Automatizados**: Implementação de testes unitários básicos e testes de integração para as rotas críticas da API REST.
+- **Revisão de Código**: Todo código submetido passa por revisão (Pull Requests) para assegurar conformidade com os padrões definidos.
+- **Testes de Aceitação**: O papel de Revisor/QA executará testes manuais baseados nos critérios de aceitação definidos para cada funcionalidade (Login, Dashboard, Transações) para validar a entrega.
 
 [Checklist de Qualidade](artefatos/PlanoDeQualidade.pdf)
 
 ## Plano de Aquisição
 
-...... DESCREVA SUCINTAMENTE O PLANO DE AQUISIÇÃO UTILIZADO NO PROJETO ......
-O Plano de Aquisições define o processo relacionado à aquisição de bens e serviços necessários para a execução do projeto. 
-Este plano abrange a identificação de necessidades, a seleção de fornecedores, a elaboração de contratos, e a gestão do relacionamento com os fornecedores durante do ciclo de vida do projeto. 
-O Plano de Aquisições visa garantir a aquisição eficiente e eficaz dos recursos necessários, minimizando riscos e custos. 
-Além disso, ele proporciona transparência nas relações com fornecedores, promovendo a conformidade com os prazos estabelecidos e padrões de qualidade.
+O Plano de Aquisições do Cashly prioriza o uso de recursos gratuitos e ferramentas open-source para minimizar custos.
+- **Recursos**: Utilização de camadas gratuitas (free tier) de serviços de hospedagem e banco de dados, ou máquinas virtuais (VM) disponibilizadas pela universidade.
+- **Software**: Preferência por bibliotecas e frameworks gratuitos (React, Node.js/Python, SQLite).
+- **Procedimento de Compra**: Caso surja uma necessidade excepcional (ex: licenças específicas), será aberta uma "Solicitação de Compra" formal, conforme modelo disponível nos artefatos do projeto.
 
 ### Documento Editável
 
@@ -165,8 +165,12 @@ Além disso, ele proporciona transparência nas relações com fornecedores, pro
 
 ## Plano de Riscos
 
-O plano de riscos busca antecipar, avaliar e mitigar os desafios potenciais que podem surgir ao longo do projeto. Este documento estratégico oferece uma visão global dos riscos, categorizando-os e delineando estratégias para lidar com cada uma das possíveis adversidades. Inicialmente, é realizada a identificação detalhada dos riscos, abrangendo desde ameaças imprevistas até oportunidades que podem ser exploradas. Uma vez catalogados, os riscos são avaliados quanto à sua probabilidade de ocorrência e impacto, permitindo a priorização e foco em áreas críticas.
+O gerenciamento de riscos do Cashly identifica os principais desafios para a entrega do MVP e define estratégias de mitigação ativas:
 
-O plano de riscos não apenas destaca os perigos em potencial, mas também estabelece respostas e estratégias de contingência. Isso inclui a definição de ações preventivas para mitigar riscos antes que se materializem, bem como estratégias de mitigação para minimizar seu impacto se ocorrerem. Além disso, a identificação de pontos de monitoramento contínuo ao longo do projeto permite uma resposta ágil às mudanças nas condições do ambiente.
+| Risco | Mitigação |
+|-------|-----------|
+| **Falta de tempo** para implementar todas as funcionalidades desejadas. | Priorização estrita do backlog (foco no MVP: Login, Dashboard, CRUD Transações) e adoção de sprints curtos de desenvolvimento. |
+| **Integrações externas** indisponíveis ou complexas. | Isolamento das camadas de integração e uso de "mocks" para não bloquear o desenvolvimento do frontend/backend. |
+| **Problemas de infraestrutura** (ambiente de dev/prod). | Uso de containers (Docker) para padronizar o ambiente e bancos de dados leves (SQLite) para prototipagem rápida. |
 
 - [Plano de Gerenciamento de Riscos - Editável](artefatos/levantamento_de_riscos.pdf)

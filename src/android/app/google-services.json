@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "255720101962",
+    "project_id": "projeto-gps-cashly",
+    "storage_bucket": "projeto-gps-cashly.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255720101962:android:f047fb32f1f1c376ef2eb3",
+        "android_client_info": {
+          "package_name": "com.example.cashly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255720101962-amoa320lasdrk51b8a3cus96i8afo8ou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cashly",
+            "certificate_hash": "780ea0116673f7493122decf0003facbaf231828"
+          }
+        },
+        {
+          "client_id": "255720101962-o34j3uc8r0vduksues2e23fss3j2mvh0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cashly",
+            "certificate_hash": "df8ef46dbb42415a11a1cfb6e4d0a933955c7113"
+          }
+        },
+        {
+          "client_id": "255720101962-t85h6appiad6q123j5h7mfkcc1uc7n9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwxG-BoEXh5M2yMeOaxTXfgfCkvpht4Xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255720101962-t85h6appiad6q123j5h7mfkcc1uc7n9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

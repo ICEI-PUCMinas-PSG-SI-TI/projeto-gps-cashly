@@ -25,7 +25,7 @@ A fase de iniciação, em gerência de projetos, é o estágio que estabelece as
 
 # Introdução
 
-![Iniciação](artefatos/definicao_do_projeto.pdf)
+![Definição do Projeto](artefatos/definicao_do_projeto.pdf)
 
 ## Problema
 

@@ -2,28 +2,25 @@
 
 # Nome do projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Cashly - Gestão de Pagamentos e Fluxo Financeiro
 
-> Descreva, em um ou dois parágrafos, um resumo do projeto (principais objetivos e justificativa).
+## Descrição do Projeto
+
+O projeto Cashly tem como objetivo desenvolver uma plataforma de gestão de pagamentos e controle de fluxo financeiro, voltada para usuários que desejam ter um melhor acompanhamento de suas finanças pessoais. Através de uma interface intuitiva e funcionalidades robustas, o Cashly permitirá que os usuários registrem suas receitas e despesas e gerem relatórios financeiros.
 
 ## Alunos integrantes da equipe
 
-* [Nome completo do aluno 1 (com link para Github)](https://github.com/aluno1)
-* [Nome completo do aluno 2 (com link para Github)](https://github.com/aluno2)
-* [Nome completo do aluno 3 (com link para Github)](https://github.com/aluno3)
-* [Nome completo do aluno 4 (com link para Github)](https://github.com/aluno4)
-* [Nome completo do aluno 5 (com link para Github)](https://github.com/aluno5)
+* [Pedro Marra Turra](https://github.com/aluno1)
+* [Bernardo Rodrigues](https://github.com/aluno2)
+* [Gabriel Mamede](https://github.com/aluno3)
+* [Gabriel Reis](https://github.com/aluno4)
+* [Felipe Rios](https://github.com/aluno5)
 
 ## Professor responsável
 
 * Pedro Felipe Alves de Oliveira
 
 ## Gerenciamento do Projeto
-
-......  COLOQUE AQUI O SEU TEXTO (OPCIONAL) ......
-
-> Adicione aqui informações sobre o projeto que será gerenciado. 
-> Indique informações importantes sobre o projeto.
 
 Fases do Gerenciamento do Projeto:
 1. [Iniciação](docs/01-iniciacao)

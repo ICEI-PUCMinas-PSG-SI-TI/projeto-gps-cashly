@@ -1,11 +1,35 @@
 # Execução
 
-> A fase de execução na gerência de projetos é o momento em que as atividades planejadas são realizadas. 
-> Durante essa etapa, os membros da equipe executam suas tarefas de acordo com o cronograma estabelecido, os recursos são alocados conforme as necessidades e as comunicações são fundamentais para garantir que todos estejam alinhados com os objetivos. 
-> O gerente de projeto atua na coordenação das atividades, resolução de problemas e na gestão de mudanças inesperadas. 
-> Além disso, o monitoramento constante é essencial para garantir que o projeto esteja avançando conforme o planejado, e ajustes são feitos conforme necessário. 
-> A fase de execução é o momento em que o trabalho tangível é realizado, e a eficácia nessa etapa contribui diretamente para o sucesso geral do projeto.
+## Abordagem de Execução
+Nesta fase a equipe implementa o que foi planejado: desenvolvimento incremental do MVP, integração contínua simples e entregas parciais para validação pelo orientador.
 
-```diff
-- Neste template, a Fase de Execução não será utilizada.
-```
+Práticas adotadas:
+- Desenvolvimento orientado a pequenas entregas (sprints semanais).
+- Controle de versão via Git (branches por feature, pull requests para integração).
+- Revisões de código entre membros e testes automatizados básicos.
+
+## Ambientes e Ferramentas
+- Código-fonte: pasta `src/` no repositório.
+- Ferramentas: Node.js/React/Vite ou stack definida em `src/` (ver package.json), editor de código (VSCode), Git.
+- Banco de dados: ambiente de desenvolvimento local (SQLite ou storage simples); para homologação usar ambiente indicado pelo orientador.
+
+## Entregáveis da Execução
+- Software funcional (build executável ou instruções para rodar localmente).
+- Testes unitários e de integração básicos.
+- Documentação técnica atualizada (README técnico dentro de `src/` e documentação em `docs/`).
+- Relatórios de progresso e commits organizados por sprint.
+
+## Integração do Trabalho com a Documentação
+- TAP_Cashly.pdf e Trabalho_Escopo.pdf servem como referência para requisitos e aceitação.
+- Solicitações administrativas (SolicitacaoDeCompra.pdf) devem ser utilizadas caso alguma compra seja necessária durante execução.
+
+## Controle de Qualidade
+- Testes automatizados para rotas/back-end e componentes críticos do frontend.
+- Revisão manual e checklist de aceitação antes de cada entrega para o orientador.
+
+## Onde está o código
+- A estrutura e implementação encontram-se em `src/`.
+- Busque os arquivos de configuração (package.json, README técnico) dentro da raiz `src/` para instruções de build e execução local.
+
+## Observações
+- Mantém-se comunicação frequente com o orientador para alinhamento de escopo e ajustes durante a execução.

@@ -161,7 +161,7 @@ O Plano de Aquisições do Cashly prioriza o uso de recursos gratuitos e ferrame
 
 ### Documento Editável
 
-- [Especificação Produto Aquisição - Editável](artefatos/SolicitacaoDeCompra.pdf)
+- [Especificação Produto Aquisição](artefatos/SolicitacaoDeCompra.pdf)
 
 ## Plano de Riscos
 
@@ -173,4 +173,4 @@ O gerenciamento de riscos do Cashly identifica os principais desafios para a ent
 | **Integrações externas** indisponíveis ou complexas. | Isolamento das camadas de integração e uso de "mocks" para não bloquear o desenvolvimento do frontend/backend. |
 | **Problemas de infraestrutura** (ambiente de dev/prod). | Uso de containers (Docker) para padronizar o ambiente e bancos de dados leves (SQLite) para prototipagem rápida. |
 
-- [Plano de Gerenciamento de Riscos - Editável](artefatos/levantamento_de_riscos.pdf)
+- [Plano de Gerenciamento de Riscos](artefatos/levantamento_de_riscos.pdf)

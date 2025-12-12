@@ -10,7 +10,7 @@ Práticas adotadas:
 
 ## Ambientes e Ferramentas
 - Código-fonte: pasta `src/` no repositório.
-- Ferramentas: Node.js/React/Vite ou stack definida em `src/` (ver package.json), editor de código (VSCode), Git.
+- Ferramentas: Flutter/Dart, editor de código (VSCode), Git.
 - Banco de dados: ambiente de desenvolvimento local (SQLite ou storage simples); para homologação usar ambiente indicado pelo orientador.
 
 ## Entregáveis da Execução

@@ -10,11 +10,11 @@ O projeto Cashly tem como objetivo desenvolver uma plataforma de gestão de paga
 
 ## Alunos integrantes da equipe
 
-* [Pedro Marra Turra](https://github.com/aluno1)
-* [Bernardo Rodrigues](https://github.com/aluno2)
-* [Gabriel Mamede](https://github.com/aluno3)
-* [Gabriel Reis](https://github.com/aluno4)
-* [Felipe Rios](https://github.com/aluno5)
+* [Bernardo Rodrigues Pereira](https://github.com/BernardoRodriguesPereira)
+* [Felipe de Faria Rios Coelho](https://github.com/feliperios06)
+* [Gabriel Mamede Albino](https://github.com/GabrielMamedeA)
+* [Gabriel Reis Santos Cardoso](https://github.com/GabrielRSCardoso)
+* [Pedro Marra Turra](https://github.com/PedroMTurra)
 
 ## Professor responsável
 
@@ -28,4 +28,6 @@ Fases do Gerenciamento do Projeto:
 3. [Execução](docs/03-execucao)
 4. [Monitoramento](docs/04-monitoramento)
 5. [Encerramento](docs/05-encerramento)
+
+[Link para teste do aplicativo](https://projeto-gps-cashly.web.app/)
 
